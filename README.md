@@ -62,7 +62,8 @@ $> gem install lazy.ai
 ```ruby
 require 'lazy.ai'
 
-lazy = Lazy.new(host: "")
+# Change with a valid lazy chatbot server url.
+lazy = Lazy.new(host: "lazy.herokuapp.com")
 
 puts lazy.learn(phrase: "hello", category: "greetings")
 
