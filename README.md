@@ -188,7 +188,6 @@ GET /responses/:category
 
 </details>
 
-----
 
 ## Contributors
 
