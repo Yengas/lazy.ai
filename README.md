@@ -20,7 +20,6 @@ If you want host on your own, go ahead do this!
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cagataycali/lazy-express)
 
 # Programmatic Usages
----
 
 ## NodeJS
 
@@ -189,7 +188,10 @@ GET /responses/:category
 
 </details>
 
+----
+
 ## Contributors
+
 >Special thanks for ruby client:
 <a href="https://github.com/Yengas">Yiğitcan Uçum @Yengas </a>
 
