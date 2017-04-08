@@ -19,11 +19,9 @@ If you want host on your own, go ahead do this!
 [Express HTTP Endpoint Deploy](https://github.com/cagataycali/lazy-telegram):
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cagataycali/lazy-express)
 
-## Programmatic Usage
+# Programmatic Usages
 
 ## NodeJS
-
-<details>
 
 ```bash
 # Or npm install --save lazy.ai
@@ -52,11 +50,8 @@ start();
 
 ```
 
-</details>
 
 ## Ruby
-
-<details>
 
 ```bash
 # Or Gemfile --> gem 'lazy.ai', '~> 0.0.1'
@@ -81,7 +76,7 @@ puts lazy.save()
 puts lazy.load()
 ```
 
-</details>
+
 
 ---
 
