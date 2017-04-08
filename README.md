@@ -20,8 +20,8 @@ If you want host on your own, go ahead do this!
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cagataycali/lazy-express)
 
 # Programmatic Usages
+---
 
-<br>
 ## NodeJS
 
 ```bash
@@ -31,10 +31,10 @@ $> yarn add lazy.ai
 
 ```javascript
 
-var Lazy = require('lazy.ai');
+const Lazy = require('lazy.ai');
 
 async function start() {
-  var lazy = new Lazy();
+  const lazy = new Lazy();
   // Learn ..
   console.log(await lazy.learn({phrase: 'hello', category: 'greetings'}));
   console.log(await lazy.learn({phrase: 'hi', category: 'greetings'}));
@@ -60,6 +60,8 @@ $> gem install lazy.ai
 ```
 
 ```ruby
+require 'lazy.ai'
+
 lazy = Lazy.new(host: "")
 
 puts lazy.learn(phrase: "hello", category: "greetings")
