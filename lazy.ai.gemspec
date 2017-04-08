@@ -9,6 +9,7 @@ Gem::Specification.new do |gem|
 	gem.authors = [ 'Yiğitcan UÇUM' ];
 	gem.email = 'yigitcan@hotmail.com.tr';
 
+  gem.add_dependency 'rest-client', '~> 2.0', '>= 2.0.1'
   gem.add_development_dependency 'webmock', '~> 2.3', '>= 2.3.2'
 
 	gem.files = Dir[ 'LICENSE', 'README.md', 'lib/**/*'];
